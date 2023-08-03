@@ -1,0 +1,21 @@
+opam-version: "2.1.3"
+version: "1.0.0"
+maintainer: "Arthur Melton <me@arthurmelton.com>"
+authors: [
+  "Arthur Melton <me@arthurmelton.com>"
+]
+homepage: "https://github.com/Foxes-cool/Foxes-Ocaml"
+bug-reports: "https://github.com/Foxes-cool/Foxes-Ocaml/issues"
+license: "MIT"
+dev-repo: "git+https://github.com/Foxes-cool/Foxes-Ocaml.git"
+build: [ "dune" "build" "-p" name "-j" jobs ]
+depends: [
+  "dune" {>= "3.9.0"}
+  "ocaml" {>= "4.14.0"}
+  "lwt_ssl"
+  "cohttp-lwt-unix"
+]
+synopsis: "An API for all your fox image needs"
+description: """
+An API for all your fox image needs
+"""
