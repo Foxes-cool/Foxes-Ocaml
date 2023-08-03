@@ -1,5 +1,4 @@
 (library
  (wrapped false)
  (name foxes)
- (libraries unix cohttp-lwt-unix lwt_ssl)
-)
+ (libraries unix cohttp-lwt-unix lwt_ssl))

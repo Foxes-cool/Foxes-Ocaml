@@ -1,4 +1,3 @@
 (executable
  (name example)
- (libraries foxes)
-)
+ (libraries foxes))
